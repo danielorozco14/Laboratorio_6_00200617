@@ -1,9 +1,11 @@
-var carro1 = {
 
-      marca: "Toyota",
-      modelo: "Corolla",
-      annio: 2003
-    
-    }; 
 
-function datosUsuario()
+function datosUsuario(nom, apellido, nac, tel, correo) {
+    var usuario = {
+        nombre: nom,
+        apelli: apellido,
+        nacimiento: nac,
+        telefono: tel,
+        corr: correo
+    };
+}
